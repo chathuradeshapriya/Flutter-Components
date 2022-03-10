@@ -1,0 +1,17 @@
+    return Scaffold(
+      body: Center(
+        child: Container(
+          width: 300,
+          height: 300,
+          color: Color(hexcolor('#7f12b5')),
+        ),
+      ),
+    );
+
+int hexcolor(String color) {
+  String newColor = '0xff' + color;
+  newColor = newColor.replaceAll('#', '');
+
+  int finalColor = int.parse(newColor);
+  return finalColor;
+}

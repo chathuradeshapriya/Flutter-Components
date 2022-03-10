@@ -1,0 +1,9 @@
+==================scroll karanna beri unama===========================
+
+body : SingleChildScrollView(
+child:Container
+.............................
+)
+
+
+// adala container eka SingleChildScrollView ekak ethulata danawa
